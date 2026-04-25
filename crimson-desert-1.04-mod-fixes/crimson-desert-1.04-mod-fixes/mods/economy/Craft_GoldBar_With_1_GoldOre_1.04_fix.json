@@ -1,0 +1,26 @@
+{
+  "modinfo": {
+    "title": "Craft GoldBar With 1 GoldOre (1.04 rebased)",
+    "version": "1.0-Pldada-rebased",
+    "nexus_url": "https://www.nexusmods.com/profile/PLMOST",
+    "author": "Pldada",
+    "description": "Craft GoldBar With 1 GoldOre"
+  },
+  "format": 2,
+  "patches": [
+    {
+      "game_file": "gamedata/multichangeinfo.pabgb",
+      "source_group": "0008",
+      "changes": [
+        {
+          "entry": "GoldBar_2",
+          "rel_offset": 47,
+          "offset": 170861,
+          "original": "64",
+          "patched": "01",
+          "label": "GOLDBAR [1.04 rebased: name@170814 +47]"
+        }
+      ]
+    }
+  ]
+}
